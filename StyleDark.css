@@ -1,0 +1,89 @@
+html {
+    background: #0a0a0a;
+    color: darkgreen;
+}
+#MyPhoto {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+ul, li, dt, dd, ol, ul {
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+nav {
+    text-align: center;
+}
+
+.urls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    list-style: none;
+}
+
+.urls li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 4px;
+}
+
+.urls li::before {
+    content: "ℹ️";
+    font-size: 1em;
+}
+
+dt, dd{
+    margin-bottom: 16px;
+}
+
+.horizontalUlLi ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu a {
+    margin: 0 8px;
+
+}
+
+.menu a::before {
+    content: "ℹ️";
+    font-size: 1em;
+    margin: 0 4px;
+}
